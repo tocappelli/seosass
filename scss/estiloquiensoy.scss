@@ -1,0 +1,94 @@
+
+$fondotransparente:linear-gradient(rgba(5,7,12,0.20), rgba(5,7,12,0.20)); 
+$colorparrafo: #a3a3a3;
+$colorhover: gray;
+$fontprincipal: 'Bebas Neue', cursive;
+$fontsecundaria: 'Caudex', serif;
+$negro: black;
+$blanco: white;
+
+@mixin redes ($fontprincipal) {
+  text-decoration: none;
+  color: $blanco;
+  font-family: $fontprincipal;
+  list-style: none;
+  font-weight: 500px;
+  border-color: transparent;
+  border-style: solid;
+  }
+
+.bodyquiensoy{
+  background-color: $negro;
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+.filmquiensoy{
+  text-decoration: none;
+  color: $blanco;
+  font-family: $fontsecundaria;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 120px;
+  opacity: 50%;
+  
+}
+.filmquiensoy:hover{
+  color: $colorhover;
+}
+.nombrequiensoy{
+text-decoration: none;
+color: $blanco;
+font-family: $fontsecundaria;
+list-style: none;
+font-size: 3rem;
+line-height: 120px;
+font-weight: 500px;
+border-color: transparent;
+border-style: solid;
+}
+.nombrequiensoy:hover{
+  color: $colorhover;
+}
+.fotosquiensoy {
+ @extend .filmquiensoy;
+}
+.fotosquiensoy:hover{
+  color: $colorhover;
+}
+.parrafoquiensoy {
+color: $colorparrafo;
+font-family: $fontsecundaria;
+font-size: 25px;
+font-weight: 400;
+background-position: center center;
+}
+
+.instaquiensoy{
+@include redes ($fontprincipal);
+}
+.instaquiensoy:hover{
+  color: $colorhover;
+}
+.behancequiensoy{
+  @include redes ($fontprincipal);
+}
+.behancequiensoy:hover{
+  color: $colorhover;
+}
+.firmaquiensoy{
+  color: $blanco;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: $fontsecundaria;
+}
+.firmaquiensoy:hover{
+  color: $colorhover;
+}
+.firmaquiensoyh2{
+  font-size: 1.5rem;
+  font-family: $fontsecundaria;
+
+}

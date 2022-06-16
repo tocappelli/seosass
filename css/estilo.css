@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&family=Julius+Sans+One&family=Poppins:wght@500&display=swap");
+.bodyindex {
+  background-image: url(../img/fondo.jpg);
+  position: fixed;
+  top: 0; }
+
+.navbar-toggler-icon {
+  border-radius: 120px;
+  width: 50px;
+  height: 60px;
+  background-image: url(../img/ojo.png); }
+
+.odcnav {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Caudex", serif;
+  font-size: 4rem; }
+
+.odcnav:hover {
+  color: gray; }
+
+.offcanvas {
+  background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(5, 7, 12, 0.2)); }
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr); }
+
+.elojo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 8rem;
+  color: white;
+  line-height: normal;
+  grid-column: 2/4;
+  grid-row: 3; }
+
+.elojoabrevidado {
+  font-family: "Bebas Neue", cursive;
+  font-size: 8rem;
+  color: white;
+  line-height: normal;
+  grid-column: 2/4;
+  grid-row: 3;
+  display: none; }
+
+@media only screen and (max-width: 1024px) {
+  .elojo {
+    font-size: 5rem;
+    grid-row: 4; } }
+
+@media only screen and (max-width: 600px) {
+  .elojo {
+    font-size: 3rem;
+    grid-column: 1;
+    grid-row: 7;
+    display: none; }
+  .elojoabrevidado {
+    display: inline; } }
+
+/*animaciones logo index*/
+.focus-in-expand {
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1; } }
+
+.offcanvas-header h5 {
+  font-size: 5rem;
+  color: white;
+  font-family: "Caudex", serif; }
+
+.nav-link {
+  color: white;
+  font-family: "Caudex", serif;
+  font-size: 3rem; }
+
+.dropdown-menu {
+  background: linear-gradient(rgba(5, 7, 12, 0.2), rgba(5, 7, 12, 0.2)); }
+
+.dropdown-item {
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  color: white; }
+
+.bodyquiensoy {
+  background-color: black; }
+  .bodyquiensoy * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+
+.filmquiensoy, .fotosquiensoy {
+  text-decoration: none;
+  color: white;
+  font-family: "Caudex", serif;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 120px;
+  opacity: 50%; }
+
+.filmquiensoy:hover, .fotosquiensoy:hover {
+  color: gray; }
+
+.nombrequiensoy {
+  text-decoration: none;
+  color: white;
+  font-family: "Caudex", serif;
+  list-style: none;
+  font-size: 3rem;
+  line-height: 120px;
+  font-weight: 500px;
+  border-color: transparent;
+  border-style: solid; }
+
+.nombrequiensoy:hover {
+  color: gray; }
+
+.fotosquiensoy:hover {
+  color: gray; }
+
+.parrafoquiensoy {
+  color: #a3a3a3;
+  font-family: "Caudex", serif;
+  font-size: 25px;
+  font-weight: 400;
+  background-position: center center; }
+
+.instaquiensoy {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  list-style: none;
+  font-weight: 500px;
+  border-color: transparent;
+  border-style: solid; }
+
+.instaquiensoy:hover {
+  color: gray; }
+
+.behancequiensoy {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  list-style: none;
+  font-weight: 500px;
+  border-color: transparent;
+  border-style: solid; }
+
+.behancequiensoy:hover {
+  color: gray; }
+
+.firmaquiensoy {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Caudex", serif; }
+
+.firmaquiensoy:hover {
+  color: gray; }
+
+.firmaquiensoyh2 {
+  font-size: 1.5rem;
+  font-family: "Caudex", serif; }
